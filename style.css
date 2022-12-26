@@ -33,14 +33,14 @@ div {
   left: 1;
   width: 32px;
   height: 32px;
-  background: url('/assets/img/pt-br.png');
+  background: url('./assets/img/pt-br.png');
   background-size: cover;
   background-position: center;
   transition: 0.3s;
 }
 input:checked ~ .switch {
   transform: translateX(85px);
-  background: url('/assets/img/en-us.png');
+  background: url('./assets/img/en-us.png');
   background-size: cover;
   background-position: center;
 }
