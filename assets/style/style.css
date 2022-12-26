@@ -1,0 +1,46 @@
+body {
+  background-color: rgb(53, 53, 53);
+  margin: 0;
+  padding: 5%;
+  box-sizing: border-box;
+}
+div {
+  width: 320px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  flex-direction: column;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  box-shadow: 0px 0px 20px 4px #000000b8;
+  margin: auto;
+  border-radius: 30px;
+}
+.sliderLang {
+  position: relative;
+  display: inline-block;
+  width: 120px;
+  height: 32px;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+}
+.sliderLang input {
+  width: 0;
+}
+.switch {
+  position: absolute;
+  cursor: pointer;
+  left: 1;
+  width: 32px;
+  height: 32px;
+  background: url('/assets/img/pt-br.png');
+  background-size: cover;
+  background-position: center;
+  transition: 0.3s;
+}
+input:checked ~ .switch {
+  transform: translateX(85px);
+  background: url('/assets/img/en-us.png');
+  background-size: cover;
+  background-position: center;
+}
