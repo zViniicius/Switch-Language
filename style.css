@@ -30,7 +30,7 @@ div {
 .switch {
   position: absolute;
   cursor: pointer;
-  left: 1;
+  left: 1px;
   width: 32px;
   height: 32px;
   background: url('./assets/img/pt-br.png');
